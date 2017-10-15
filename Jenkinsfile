@@ -8,7 +8,7 @@ node {
 
     stage('Gradle build') {
        echo "start"
-       sh 'gradle build --info'
+       sh './gradlew'
        echo "stop"
     }
 }
