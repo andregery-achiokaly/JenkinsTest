@@ -3,7 +3,7 @@ node {
     def buildInfo
 
     stage('Clone sources') {
-        git url: 'https://github.com/andregery-achiokaly/JenkinsTest.git'
+        git url: 'https://git.epam.com/alexander_topilskii/test-beacons.git'
     }
 
     stage('Gradle build') {
